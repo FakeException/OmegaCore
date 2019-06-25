@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="OmegaCore:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/OmegaCore_jar</output-path>
+    <root id="archive" name="OmegaCore.jar">
+      <element id="module-output" name="OmegaCore" />
+    </root>
+  </artifact>
+</component>
