@@ -1,0 +1,142 @@
+#.----------------.  .----------------.  .----------------.  .----------------.  .----------------.  .----------------.  .----------------.  .----------------.  .----------------.
+#  | .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. |
+#    | |     ____     | || | ____    ____ | || |  _________   | || |    ______    | || |      __      | || |     ______   | || |     ____     | || |  _______     | || |  _________   | |
+#    | |   .'    `.   | || ||_   \  /   _|| || | |_   ___  |  | || |  .' ___  |   | || |     /  \     | || |   .' ___  |  | || |   .'    `.   | || | |_   __ \    | || | |_   ___  |  | |
+#    | |  /  .--.  \  | || |  |   \/   |  | || |   | |_  \_|  | || | / .'   \_|   | || |    / /\ \    | || |  / .'   \_|  | || |  /  .--.  \  | || |   | |__) |   | || |   | |_  \_|  | |
+#    | |  | |    | |  | || |  | |\  /| |  | || |   |  _|  _   | || | | |    ____  | || |   / ____ \   | || |  | |         | || |  | |    | |  | || |   |  __ /    | || |   |  _|  _   | |
+#    | |  \  `--'  /  | || | _| |_\/_| |_ | || |  _| |___/ |  | || | \ `.___]  _| | || | _/ /    \ \_ | || |  \ `.___.'\  | || |  \  `--'  /  | || |  _| |  \ \_  | || |  _| |___/ |  | |
+#    | |   `.____.'   | || ||_____||_____|| || | |_________|  | || |  `._____.'   | || ||____|  |____|| || |   `._____.'  | || |   `.____.'   | || | |____| |___| | || | |_________|  | |
+#    | |              | || |              | || |              | || |              | || |              | || |              | || |              | || |              | || |              | |
+#    | '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' |
+#    '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'
+
+
+prefix: '&3Omega&bCore &7➜'
+
+command:
+  no-permission: '{prefix} &7You don''t have the permission for that command.'
+  incorrect-usage: '{prefix} &cIncorrect usage please use &b{usage} {args}'
+  reload-complete-msg: '{prefix} &7Plugin successfully reloaded.'
+  player-not-online: '{prefix} &b{player} &3is not &bOnline!'
+
+messages:
+
+  fly:
+    fly-enabled: '{prefix} &3Your fly has been &bEnabled!'
+    fly-disabled: '{prefix} &3Your fly has been &bDisabled!'
+
+    fly-enabled-other-sender: '{prefix} &3Fly enabled for &b{player}!'
+    fly-disabled-other-sender: '{prefix} &3Fly disabled for &b{player}!'
+
+    fly-enabled-other-target: '{prefix} &3Your fly has been enabled by &b{player}!'
+    fly-disabled-other-target: '{prefix} &3Your fly has been disabled by &b{player}!'
+
+  heal:
+    healed-msg: '{prefix} &3You''ve been healed!'
+    healed-msg-other: '{prefix} &3You''ve healed &b{player}!'
+
+    already-healed: '{prefix} &3You already have max health!'
+    already-healed-other: '{prefix} &b{player} &3already has max health!'
+
+    isnt-gamemode-survival-adventure: '{prefix} &bYou have to be in &3Survival &bor &3Adventure &bmode!'
+    isnt-gamemode-survival-adventure-other: '{prefix} &b{player} &3need to be in &3Survival &bor &3Adventure &bmode!'
+
+  feed:
+    feed-msg: '{prefix} &3You''ve been feeded!'
+    feed-msg-other: '{prefix} &3You''ve feeded &b{player}!'
+
+    already-feeded: '{prefix} &3You already have max feed!'
+    already-feeded-other: '{prefix} &b{player} &3already has max feed!'
+
+  gamemode:
+    usage: '{prefix} &3Available Game &bModes: &3Creative&b, &3Survival&b, &3Adventure&b, &3Spectator'
+
+    creative: '{prefix} &3Game&bMode &3changed to &bCreative!'
+    survival: '{prefix} &3Game&bMode &3changed to &bSurvival!'
+    adventure: '{prefix} &3Game&bMode &3changed to &bAdventure!'
+    spectator: '{prefix} &3Game&bMode &3changed to &bSpectator!'
+
+    creative-other: '{prefix} &3GameMode modified to &bCreative &3for &b{player}'
+    survival-other: '{prefix} &3GameMode modified to &bSurvival &3for &b{player}'
+    adventure-other: '{prefix} &3GameMode modified to &bAdventure &3for &b{player}'
+    spectator-other: '{prefix} &3GameMode modified to &bSpectator &3for &b{player}'
+
+    creative-other-target: '{prefix} &3Your GameMode has been changed to &bCreative'
+    survival-other-target: '{prefix} &3Your GameMode has been changed to &bSurvival'
+    adventure-other-target: '{prefix} &3Your GameMode has been changed to &bAdventure'
+    spectator-other-target: '{prefix} &3Your GameMode has been changed to &bSpectator'
+
+  homes:
+    sethome: '{prefix} &3Home successfully &bSetted!'
+    home: '{prefix} &3Teleported to your &bHome!'
+    home-notfound: '{prefix} &3First set your home with &b/sethome'
+
+  spawn:
+    setspawn: '{prefix} &3Spawn successfully &bSetted!'
+    spawn: '{prefix} &3Teleported to the &bSpawn!'
+    spawn-notfound: '{prefix} &3No spawnConfig has yet been set!'
+
+  killall:
+    killall: '{prefix} &3Killed the &bEntities!'
+
+  weather:
+    sun: '{prefix} &3Weather changed to &bSun!'
+    rain: '{prefix} &3Weather changed to &bStorm!'
+
+  time:
+    day: '{prefix} &3Time changed to &bDay!'
+    night: '{prefix} &3Time changed to &bNight!'
+
+  teleport:
+    tpall: '{prefix} &3Teleported all the players to you!'
+    tphere: '{prefix} &3Teleported &b{target} &3to you!'
+    self: '{prefix} &3You cannot teleport to yourself!'
+    expired: '{prefix} &3Teleport request from &b{player} &3has expired!'
+    already-tpa: '{prefix} &3You already sent a teleport request to &b{target}'
+
+    tpa-request:
+      - '&b&m------------------------------'
+      - ' '
+      - '&3Teleport request was sent to &b{target}'
+      - ' '
+      - '&b&m------------------------------'
+
+    tpa-request-other:
+      - '&b&m------------------------------'
+      - ' '
+      - '&3Tpa request from &b{player}'
+      - ' '
+      - '&3Accept it with &b/tpaccept {player}'
+      - '&3Deny it with &b/tpdeny'
+      - ' '
+      - '&b&m------------------------------'
+
+    tpa-accepted:
+      - '&b&m------------------------------'
+      - ' '
+      - '&3Tpa from &b{player} &3accepted!'
+      - ' '
+      - '&b&m------------------------------'
+
+    tpa-accepted-other:
+      - '&b&m------------------------------'
+      - ' '
+      - '&b{target} &3accepted your teleport request!'
+      - ' '
+      - '&b&m------------------------------'
+
+    tpa-no-teleport: '{prefix} &3No teleport requests from {player}'
+
+    tpa-deny: '{prefix} &3Tpa from &b{player} denied!'
+
+    tpa-deny-other: '{prefix} &b{target} &3denied your teleport request!'
+
+  warps:
+    setwarp: '{prefix} &3Successfully setted the warp &b{warp}&3!'
+    teleported: '{prefix} &3Successfully teleported to the warp &b{warp}&3!'
+    already-exists: '{prefix} &cWarp Already Exists!'
+    not-found: '{prefix} &cWarp not found!'
+
+  speed:
+    walk-speed: '{prefix} &3Set walk speed to &b{value}'
+    fly-speed: '{prefix} &3Set fly speed to &b{value}'

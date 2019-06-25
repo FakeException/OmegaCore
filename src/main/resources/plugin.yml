@@ -1,0 +1,7 @@
+name: OmegaCore
+version: ${project.version}
+main: me.zbackdoor.omegacore.OmegaCore
+api-version: 1.8.8
+authors: [zBackDo_or_]
+description: The plugin you must have on your server!
+website: https://omeganetwork.it
