@@ -43,7 +43,8 @@ public class OmegaCore extends OmegaPlugin {
         warpsConfig.saveConfig();
         this.register(SetWarpCMD.class, WarpCMD.class);
         this.register(KillallCMD.class, SunCMD.class, RainCMD.class, DayCMD.class, NightCMD.class,
-                TpallCMD.class, TphereCMD.class, TpaCMD.class, TpacceptCMD.class, TpdenyCMD.class, WarpsCMD.class, InvseeCMD.class, BroadcastCMD.class);
+                TpallCMD.class, TphereCMD.class, TpaCMD.class, TpacceptCMD.class, TpdenyCMD.class, WarpsCMD.class,
+                InvseeCMD.class, BroadcastCMD.class, NukeCMD.class);
         registerListeners();
         Bukkit.getConsoleSender().sendMessage("§3§m------------------------------------------------------------");
         console.info("§bPlugin §3Enabled!");

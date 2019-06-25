@@ -32,4 +32,5 @@ public class Permissions {
     public static final String TPHERE_PERM = PREFIX + ".tphere";
     public static final String SPEED_PERM = PREFIX + ".speed";
     public static final String BROADCAST_PERM = PREFIX + ".broadcast";
+    public static final String NUKE_PERM = PREFIX + ".nuke";
 }
